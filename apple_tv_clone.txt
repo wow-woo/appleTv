@@ -1,0 +1,19 @@
+react-router
+
+history 사용법
+
+보낼뿐 만이 아니라 url params를 함께 보낼 수 있다.
+
+
+history.push('/some/path', { some: 'state' })
+Or you pass everything in a single object
+
+history.push({ 
+       pathname: '/home',
+       state: { some: 'state' }
+})
+
+
+node의 offsetheight / offsetWidth 는 자신의 너비, 높이
+패딩 , 스크롤바 모두 포함
+before,after 제외.
